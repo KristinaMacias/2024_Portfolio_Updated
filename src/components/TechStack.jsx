@@ -6,7 +6,7 @@ const TechStack = () => {
       <h1>Tech Stack</h1>
       <p>
         JavaScript | React.js | Node.js | Express | PostgreSQL | HTML | CSS |
-        Bootstrap | Git | GitHub | Consuming RESTful APIs | QGIS
+        Bootstrap | Git | GitHub | Consuming RESTful APIs | NPM | |QGIS
       </p>
     </section>
   );

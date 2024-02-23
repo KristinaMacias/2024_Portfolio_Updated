@@ -6,7 +6,7 @@ const About = () => {
     <section className="main-section">
       <h1>About Me</h1>
       <p>
-        I'm Kristina, your friendly, neighborhood full-stack web developer and
+        I'm Kristina, your friendly, neighborhood, full-stack web developer and
         GIS nerd.
       </p>
       <p>
@@ -19,8 +19,7 @@ const About = () => {
         I later accepted the opportunity to write technical content in the
         front-end and back-end, as well as mentoring over 800 students. I am
         passionate about helping others learn to code and am excited to continue
-        my journey as a developer. I am excited to continue my journey as a
-        developer.
+        my journey as a developer.
       </p>
     </section>
   );

@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Questrial&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Questrial&family=Shrikhand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Questrial&family=Shrikhand&display=swap');
 
 * {
   margin: 0 auto;
@@ -28,10 +27,11 @@ body {
 .hero {
   height: 100vh;
   padding: 0;
-  background-image: url('../src/assets/layered-peaks-haikei.svg');
+  background-color: var(--mint-cream);
+  /* background-image: url('../src/assets/layered-peaks-haikei.svg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 } 
 
 section {
@@ -49,29 +49,26 @@ section {
 }
 
 /* fonts */
-.special-text {
-  color: var(--celadon);
-}
-
-.special-heading {
-  font-family: 'permanent marker', cursive;
-}
-
 h1 {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 3rem;
+  font-size: 3.6rem;
   color: var(--mint-cream);
   line-height: 1.3;
 }
 
 .hero h1 {
+  color: var(--night);
   font-weight: extra-bold;
+}
+
+.special-text {
+  color: var(--honolulu-blue);
+  font-family: 'Permanent Marker', cursive;
 }
 
 #section-variant h1 {
   color: var(--night);
 }
-
 
 p {
   font-family: 'questrial', sans-serif;
@@ -95,26 +92,39 @@ p {
 
 /* buttons */
 button {
-  background-color: var(--mint-cream);
-  border: none;
-  padding: 0.9rem;
-  margin: 1rem;
+  background-color: var(--persian-blue);
+  border: 3px solid var(--persian-blue);
+  padding: 1rem 1.2rem; 
+  margin: 0.4rem;
   margin-top: 2rem;
   cursor: pointer;
   border-radius: 0.2rem;
 }
 
+.secondary-btn {
+  padding: 1rem 1.2rem; 
+  background-color: var(--mint-cream);
+  border: 3px solid var(--persian-blue);
+}
+
+.secondary-btn a {
+  color: var(--night);
+
+}
+
 button:hover {
   background-color: var(--salmon-pink);
+  border: 3px solid var(--salmon-pink);
 }
 
 button:hover a {
-  color: var(--night);
+  color: var(--mint-cream);
+  
 }
 
 button a {
   text-decoration: none;
-  color: var(--night);
+  color: var(--mint-cream);
   font-size: 1.2rem;
   font-family: 'questrial', sans-serif;
   font-weight: bolder;
@@ -130,7 +140,7 @@ button a {
     font-size: 1.8rem;
   }
 
-  button {
+  button, .secondary-btn{
     padding: 1.5rem;
   }
 
@@ -150,7 +160,7 @@ button a {
   }
 
   .hero h1 {
-    font-size: 8rem;
+    font-size: 9rem;
   }
 
   p {
