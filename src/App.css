@@ -1,7 +1,7 @@
 /* general styles */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&family=Permanent+Marker&family=Questrial&family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Questrial&family=Shrikhand&display=swap');
 
 * {
@@ -23,50 +23,68 @@ body {
   color: var(--mint-cream);
 }
 
-/* website sections */
+/* website section */
 .hero {
   height: 100vh;
   padding: 0;
-  background-color: var(--mint-cream);
-  /* background-image: url('../src/assets/layered-peaks-haikei.svg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
-} 
+}
 
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
-  margin-bottom: 3rem;
+  padding: 2rem;
 }
 
-#section-variant {
-  background-color: var(--mint-cream);
-  color: var(--night);
+.about-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-left {
+  flex: 1;
+}
+
+.flex-right {
+  flex: 1;
+}
+
+.tech-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.selection-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  cursor: pointer;
 }
 
 /* fonts */
 h1 {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 3.6rem;
+  font-family: 'lilita One', static; 
+  font-size: 2.9rem;
   color: var(--mint-cream);
   line-height: 1.3;
 }
 
-.hero h1 {
-  color: var(--night);
-  font-weight: extra-bold;
+h3 {
+  font-family: 'lilita One', static;
+  font-size: 1.8rem;
+  color: var(--mint-cream);
+  margin-top: 2rem;
 }
 
-.special-text {
-  color: var(--honolulu-blue);
-  font-family: 'Permanent Marker', cursive;
-}
-
-#section-variant h1 {
+.hero p {
   color: var(--night);
 }
 
@@ -74,7 +92,7 @@ p {
   font-family: 'questrial', sans-serif;
   font-size: 1.1rem;
   line-height: 1.3;
-  margin: 0.5rem 0;
+  margin: 0.8rem 0;
 }
 
 .author {
@@ -84,37 +102,33 @@ p {
 }
 
 /* icons and images */
-.icon {
-  height: 4rem;
-  width: 4rem;
-  margin-top: 1.2rem;
+#portrait {
+  height: 100%;
+  width: 100%;
 }
 
 /* buttons */
 button {
-  background-color: var(--persian-blue);
-  border: 3px solid var(--persian-blue);
-  padding: 1rem 1.2rem; 
+  background-color: var(--honolulu-blue);
+  border: none;
+  padding: 1rem 1.1rem; 
   margin: 0.4rem;
   margin-top: 2rem;
   cursor: pointer;
-  border-radius: 0.2rem;
+  border-radius: 0.4rem;
 }
 
 .secondary-btn {
-  padding: 1rem 1.2rem; 
+  padding: 1rem 1.1rem; 
   background-color: var(--mint-cream);
-  border: 3px solid var(--persian-blue);
 }
 
 .secondary-btn a {
   color: var(--night);
-
 }
 
 button:hover {
   background-color: var(--salmon-pink);
-  border: 3px solid var(--salmon-pink);
 }
 
 button:hover a {
@@ -130,14 +144,30 @@ button a {
   font-weight: bolder;
 }
 
+/* (tech section) buttons */
+.selection-container .btn {
+  font-family: 'questrial', sans-serif;
+  font-weight: bolder;
+  border: 1px solid var(--mint-cream);
+  padding: 0.5rem; 
+  margin: 0.4rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+
+.selection-container .btn:hover {
+  background-color: var(--mint-cream);
+  color: var(--night);
+}
+
 /* media query - tablet */
 @media (min-width: 768px) {
   h1 {
-    font-size: 6.5rem;
+    font-size: 5.5rem;
   }
 
   p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   button, .secondary-btn{
@@ -156,18 +186,29 @@ button a {
 /* media query - desktop */
 @media (min-width: 1024px) {
   h1 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   .hero h1 {
-    font-size: 9rem;
+    font-size: 8.5rem;
   }
 
   p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   section {
     padding: 6rem;
+  }
+  .about-section {
+    flex-direction: row;
+  }
+
+  .content-container {
+    border: 7px solid var(--night);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0px 10px 79px -14px #141414;
+  
   }
 }

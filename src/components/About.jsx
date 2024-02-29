@@ -1,26 +1,28 @@
 import React from "react";
-import downArrow from "../assets/down-arrow.svg";
+import kristinaPortrait from '../assets/kristinamacias.jpg'
 
 const About = () => {
   return (
-    <section className="main-section">
-      <h1>About Me</h1>
-      <p>
-        I'm Kristina, your friendly, neighborhood, full-stack web developer and
-        GIS nerd.
-      </p>
-      <p>
-        I started my technical career as a GIS researcher for the city of Long
-        Beach, analyzing and visualizing data to help make informed policy
-        decisions. Hungry to learn more, I decided to take the plunge into web
-        development and completed a coding bootcamp at El Camino College.
-      </p>
-      <p>
-        I later accepted the opportunity to write technical content in the
-        front-end and back-end, as well as mentoring over 800 students. I am
-        passionate about helping others learn to code and am excited to continue
-        my journey as a developer.
-      </p>
+    <section className="about-section section-variant">
+      <div className="flex-left">
+        <img id="portrait" src={kristinaPortrait} alt="headshot of kristina macias" />
+      </div>
+      <div className="flex-right">
+        <h1>About Me</h1>
+        <p>
+          I'm Kristina, your friendly, neighborhood, full-stack web developer.
+          I'm also a GIS nerd with a bachelor's degree in Geography and a minor
+          in Environmental Science & Policy from California State Univeristy,
+          Long Beach. I develop in React, Node.js, Express.js and PostgreSQL.
+        </p>
+        <p>
+          I have a background in GIS analysis and data visualization with the
+          City of Long Beach, as well as a background in coding currriculum
+          development. I am passionate about creating, teaching and learning. I
+          am a lifelong learner and I am always looking for new ways to grow and
+          expand my skillset.
+        </p>
+      </div>
     </section>
   );
 };

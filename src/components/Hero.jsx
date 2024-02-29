@@ -1,21 +1,33 @@
 import React from "react";
-import downArrow from "../assets/down-arrow.svg";
 
 const Hero = () => {
   return (
     <section className="hero">
-      <h1>Hi, I'm Kristina.</h1>
+      <div className="content-container">
       <h1>
-      I am a <span className="special-text">Full Stack</span>
+        Hello, I'm <span className="special-text">Kristina</span>
       </h1>
-      <h1>Web Developer</h1>
+      <p>Ready to bring your projects to life? Let's work together!</p>
       <div className="button-box">
         <button>
-          <a href="https://www.linkedin.com/in/maciaskristina/">LinkedIn</a>
+          <a
+            href="https://www.linkedin.com/in/maciaskristina/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View LinkedIn
+          </a>
         </button>
         <button className="secondary-btn">
-          <a href="https://github.com/KristinaMacias">GitHub</a>
+          <a
+            href="https://github.com/KristinaMacias"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub
+          </a>
         </button>
+      </div>
       </div>
     </section>
   );
