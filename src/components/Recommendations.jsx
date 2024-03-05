@@ -3,9 +3,9 @@ import testimonialData from "../data/testimonials";
 
 const Recommendations = () => {
   return (
-    <section className="main-section">
+    <section className="web-section">
+      <div className="paragraph-container">
       <h1>Say What..?!</h1>
-      <div className="recommendations-container">
         {testimonialData.content.map((testimonial) => {
           return (
             <div key={testimonial.id} className="recommendation">

@@ -9,7 +9,7 @@ const TechStack = () => {
   };
 
   return (
-    <section className="main-section">
+    <section className="main-section section-variant">
       <h1>Tech Stack</h1>
       <div className="tech-container">
         {technologies.content.map((tech) => {

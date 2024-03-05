@@ -2,32 +2,30 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero web-section">
       <div className="content-container">
-      <h1>
-        Hello, I'm <span className="special-text">Kristina</span>
-      </h1>
-      <p>Ready to bring your projects to life? Let's work together!</p>
-      <div className="button-box">
-        <button>
-          <a
-            href="https://www.linkedin.com/in/maciaskristina/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View LinkedIn
-          </a>
-        </button>
-        <button className="secondary-btn">
-          <a
-            href="https://github.com/KristinaMacias"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View GitHub
-          </a>
-        </button>
-      </div>
+        <div className="greeting-container">
+          <h2 className="color-primary">Hi there! I'm </h2>
+          <h1>Kristina Macias.</h1>
+          <div className="title-container">
+            <h2>
+              Full Stack Developer. <span className="color-secondary">GIS Nerd.</span>
+            </h2>
+          </div>
+        </div>
+        <div className="paragraph-container">
+          <p>🚀 Passionate about learning, creating & teaching.</p>
+          <p>
+            💫 Focused on{" "}
+            <span className="color-primary">
+              React.js, PostgreSQL, Node.js & Express.js.
+            </span>
+          </p>
+        </div>
+        <div className="button-container">
+          <button><a href="">LinkedIn</a></button>
+          <button><a href="">GitHub</a></button>
+        </div>
       </div>
     </section>
   );

@@ -1,6 +1,4 @@
 import Hero from "./components/Hero";
-import About from "./components/About";
-import TechStack from "./components/TechStack";
 import Recommendations from "./components/Recommendations";
 import "./App.css";
 
@@ -8,13 +6,10 @@ import "./App.css";
 function App() {
 
   return (
-    <>
-      {/* <Navigation /> */}
+    <div className="app-container">
       <Hero />
-      <About />
-      <TechStack />
       <Recommendations />
-    </>
+    </div>
   );
 }
 
