@@ -4,6 +4,7 @@
 
 :root {
   --battleship-grey: #8f9094;
+  --eerie-black: #1F1F1F;
   --night: #0a0a0aff;
   --savoy-blue: #6C75DA;
   --white: #ffffffff;
@@ -26,15 +27,15 @@ body {
 
 .hero {
   height: 100vh;
-
+  margin-top: -1.5rem;
 }
 
 .paragraph-container {
-  margin-top: 2.8rem;
+  margin-top: 2.7rem;
 }
 
 .title-container {
-  margin-top: 2.8rem;
+  margin-top: 2.7rem;
 }
 
 
@@ -93,7 +94,7 @@ button:first-child {
 
 button,
 .secondary-btn {
-  background-color: var(--battleship-grey);
+  background-color: var(--eerie-black);
   border: none;
   padding: 0.8rem;
   margin-top: 2rem;
