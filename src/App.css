@@ -23,6 +23,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .hero {
@@ -124,17 +125,6 @@ p {
   left: -5%;
   z-index: -1;
 }
-
-.svg-background-alt {
-  width: 48%;
-  position: absolute;
-  background-position: cover;
-  top: -10%;
-  left: -5%;
-  z-index: -1;
-
-}
-
 
 .btn-icon {
   width: 15%;

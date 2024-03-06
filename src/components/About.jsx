@@ -11,26 +11,37 @@ const About = () => {
         </div>
         <div className="card-left">
           <img
-            className="svg-background-alt"
+            className="svg-background"
             src={circlesSVG}
             alt="background svg triangle design"
           />
           <h1>About Me</h1>
           <div className="paragraph-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              tempore eligendi ab odit vitae illum aliquid ipsum porro
-              voluptatem. Dignissimos excepturi amet illum totam nobis magni
-              ipsam alias quibusdam consectetur rem repellendus vitae odit
-              voluptas sunt tenetur ex facere omnis inventore voluptates nostrum
-              sequi, perferendis officiis distinctio. Tenetur voluptas nemo
-              odit, sint praesentium soluta itaque perferendis commodi
-              accusantium exercitationem, facere, fugiat quidem officiis id
-              reprehenderit earum eveniet. Sunt minima sed nobis. Illum possimus
-              dolore nostrum aperiam iure tempora eius debitis quisquam
-              architecto maiores accusamus cum rem, odit ratione hic
-              dignissimos, illo sint velit quidem saepe? Reiciendis quibusdam
-              officia reprehenderit odit.
+              Hi there! I'm Kristina. I'm a full-stack web developer and GIS
+              nerd. I currently work with React, PostgreSQL, Node.js, and
+              Express.js.
+            </p>
+            <p>
+              After graduating from California State University, Long Beach, I
+              worked as a GIS researcher for the City of Long Beach. During that
+              time, I analyzed and mapped a decade of LBPD data to better help
+              multidisciplinary teams make policy decisions.
+            </p>
+            <p>
+              I've always been interested in web development, so I decided to
+              take the plunge and complete a coding bootcamp with El Camino
+              College. Since then, I've mentored over 800 students in front-end
+              development and worked as a technical curriculum developer,
+              improving both the front-end and back-end curriculum.
+            </p>
+            <p>
+              I'm passionate about creating accessible and inclusive web
+              applications. I'm also a huge fan of maps, so I'm looking for ways
+              to incorporate geospatial data into my projects. Currently, I'm
+              seeking a full-time position as a web developer. I'm excited to
+              bring my unique background to a team that values creativity and
+              innovation.
             </p>
           </div>
         </div>
