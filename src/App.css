@@ -34,12 +34,35 @@ body {
   margin-top: 3rem;
 }
 
+.button-container {
+  margin-top: 2rem;
+}
+
 .title-container {
   margin-top: 3rem;
 }
 
-.content-container, .testimonials-container {
+.hero-container,
+.card-left,
+.testimonials-container {
   position: relative;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.card-right {
+  display: flex;
+  flex: 1;
 }
 
 /* Fonts */
@@ -88,22 +111,37 @@ p {
 }
 
 /* Icons and images */
+#portrait {
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
 .svg-background {
-  width: 30%;
+  width: 35%;
   position: absolute;
+  background-position: cover;
   top: -10%;
   left: -5%;
-  z-index: -1; 
+  z-index: -1;
 }
+
+.svg-background-alt {
+  width: 48%;
+  position: absolute;
+  background-position: cover;
+  top: -10%;
+  left: -5%;
+  z-index: -1;
+
+}
+
 
 .btn-icon {
   width: 15%;
   height: auto;
   margin-right: 0.6rem;
   padding: 0;
-  
 }
-
 
 /* Buttons */
 button:first-child {
@@ -127,6 +165,7 @@ button,
 }
 
 button:hover {
+  border: 2px solid var(--white);
   background-color: var(--salmon-pink);
 }
 
@@ -175,6 +214,17 @@ button a,
 @media (min-width: 1024px) {
   .web-section {
     padding: 9rem;
+  }
+  .about-container {
+    flex-direction: row;
+  }
+
+  .card-left {
+    order: 1;
+  }
+
+  .card-right {
+    order: 2;
   }
 
   h1 {

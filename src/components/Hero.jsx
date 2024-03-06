@@ -6,9 +6,9 @@ import githubIcon from "../assets/github-icon.png";
 const Hero = () => {
   return (
     <section className="hero web-section">
-      <div className="content-container">
+      <div className="hero-container">
+        <img className="svg-background" src={circlesSVG} alt="" />
         <div className="greeting-container">
-          <img className="svg-background" src={circlesSVG} alt="" />
           <h2 className="color-primary">Hi there! I'm </h2>
           <h1>Kristina Macias.</h1>
           <div className="title-container">
@@ -19,11 +19,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="paragraph-container">
-          <p>🚀 Passionate about learning, creating & teaching.</p>
+          <p>🚀 Passionate about learning, teaching & creating.</p>
           <p>
             💫 Focused on{" "}
             <span className="color-primary">
-              React.js, PostgreSQL, Node.js & Express.js.
+              React.js, PostgreSQL, Node.js, Express.js & GIS.
             </span>
           </p>
         </div>
