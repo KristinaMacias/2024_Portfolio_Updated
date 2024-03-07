@@ -113,8 +113,10 @@ p {
 
 /* Icons and images */
 #portrait {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
 }
 
 .svg-background {
@@ -201,10 +203,11 @@ button a,
 }
 
 /* Media query - Desktop */
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .web-section {
     padding: 9rem;
   }
+
   .about-container {
     flex-direction: row;
   }

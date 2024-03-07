@@ -19,8 +19,11 @@ const About = () => {
           <div className="paragraph-container">
             <p>
               Hi there! I'm Kristina. I'm a full-stack web developer and GIS
-              nerd. I currently work with React, PostgreSQL, Node.js, and
-              Express.js.
+              nerd.{" "}
+              <span className="color-primary">
+                I currently work with React, PostgreSQL, Node.js, and
+                Express.js.
+              </span>
             </p>
             <p>
               After graduating from California State University, Long Beach, I
@@ -38,10 +41,12 @@ const About = () => {
             <p>
               I'm passionate about creating accessible and inclusive web
               applications. I'm also a huge fan of maps, so I'm looking for ways
-              to incorporate geospatial data into my projects. Currently, I'm
-              seeking a full-time position as a web developer. I'm excited to
-              bring my unique background to a team that values creativity and
-              innovation.
+              to incorporate geospatial data into my projects. Currently,{" "}
+              <span className="color-primary">
+                I'm seeking a full-time position as a web developer. I'm excited
+                to bring my unique background to a team that values creativity
+                and innovation.
+              </span>
             </p>
           </div>
         </div>
