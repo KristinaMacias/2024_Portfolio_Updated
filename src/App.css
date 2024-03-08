@@ -111,9 +111,28 @@ p {
   margin-bottom: 2rem;
 }
 
+/* animations */
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  animation: fade linear both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 25%;
+}
+
+
+
 /* Icons and images */
 #portrait {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 0.4rem;
   margin-bottom: 0.5rem;
