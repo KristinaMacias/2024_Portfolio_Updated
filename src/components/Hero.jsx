@@ -30,11 +30,11 @@ const Hero = () => {
         <div className="button-container">
           <button>
             <img className="btn-icon" src={linkedinIcon} alt="linkedin icon" />
-            <a href="">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/maciaskristina/">LinkedIn</a>
           </button>
           <button>
             <img className="btn-icon" src={githubIcon} alt="github icon" />
-            <a href="">GitHub</a>
+            <a href="https://github.com/KristinaMacias">GitHub</a>
           </button>
         </div>
       </div>
