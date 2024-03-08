@@ -55,12 +55,13 @@ const MyComponent = () => {
             </p>
             <p>
               Originally, I planned to create a fullstack app to update these
-              numbers. But updating that is a manual task. Instead, I decided to
+              numbers, keeping track of the challenges solved. But
+              updating that seemed too manual of a task. Instead, I decided to
               let the GitHub API do the heavy lifting. (Thanks, GitHub!)
             </p>
             <p>
               With Octokit and the GitHub API, I can fetch data for this
-              repository. Each commit I make adds to my stats. Pretty neat, huh?
+              repository. Each committed solution I make adds to my stats. Pretty neat, huh?
             </p>
             <div className="button-container">
               <button>
