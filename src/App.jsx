@@ -3,6 +3,7 @@ import Recommendations from "./components/Recommendations";
 import About from "./components/About";
 import Stats from "./components/Stats";
 import "./App.css";
+import CommitCalendar from "./components/CommitCalendar";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Stats />
+      <CommitCalendar />
       <Recommendations />
     </div>
   );

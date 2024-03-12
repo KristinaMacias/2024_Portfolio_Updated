@@ -38,6 +38,7 @@ const MyComponent = () => {
             alt="svg pattern background"
           />
           <h1>Code Challenge Stats</h1>
+          <h2>Code Challenges Solved to Date:</h2>
           <div className="paragraph-container">
             <div className="stats">
               {commitCount !== null ? (
@@ -47,33 +48,6 @@ const MyComponent = () => {
               ) : (
                 <p>Loading... 🚀</p>
               )}
-            </div>
-            <p>You're probably wondering what this is about. Let me explain!</p>
-            <p>
-              Here, you see the number of challenges I've solved since July
-              2021.
-            </p>
-            <p>
-              Originally, I planned to create a fullstack app to update these
-              numbers, keeping track of the challenges solved. But
-              updating that seemed too manual of a task. Instead, I decided to
-              let the GitHub API do the heavy lifting. (Thanks, GitHub!)
-            </p>
-            <p>
-              With Octokit and the GitHub API, I can fetch data for this
-              repository. Each committed solution I make adds to my stats. Pretty neat, huh?
-            </p>
-            <div className="button-container">
-              <button>
-                <a href="https://www.codewars.com/users/KristinaMacias/">
-                  Codewars
-                </a>
-              </button>
-              <button>
-                <a href="https://github.com/KristinaMacias/CodingChallenges/blob/main/solutions.js">
-                  View Repo
-                </a>
-              </button>
             </div>
           </div>
         </div>
