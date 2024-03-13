@@ -48,4 +48,3 @@ Thank you for visiting my portfolio website! 🚀
 ## Screenshots
 
 ![App Screenshot](https://previews.dropbox.com/p/thumb/ACMEeMwRDgJWljJ5VUcTg4eZJOHlRY38sdnh21Yk05wpFvnb95Zc2wKzG14JRhreC8qMeO5p776hUKHXENu6lw1AU1xjHe1JEXJ6aIctZSI6lIIQHXpF35k_3BGDQG1VSuUiBJCL2jGyFcJeNgMcHrDtTucOCqbB-uSklxbktk8aACnH7S31-O0b6c-ZkOCyUf0lgoU-EiM3OSKpNtUZr9C9Ia7hPzC-4_JQ6ghGOxDMLBxHpvPP2Z4DZaWp9uuOl36HqpcgeVgHZDs7b9urq2AI-Go0gOYPkaFXPcbvwwQPonNrGzWT8EKMJ2EsNvt5XU2dlOo6Am04E6TbKZoENpOZ/p.jpeg)
-
