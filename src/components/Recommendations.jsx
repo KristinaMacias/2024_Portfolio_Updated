@@ -4,7 +4,7 @@ import backgroundSVG from "../assets/circles-black.svg";
 
 const Recommendations = () => {
   return (
-    <section className="web-section">
+    <section className="recs web-section">
       <div className="testimonials-container">
         <img className="svg-background" src={backgroundSVG} alt="" />
         <h1>Say What..?!</h1>

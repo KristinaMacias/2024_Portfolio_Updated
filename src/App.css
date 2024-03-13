@@ -209,8 +209,6 @@ canvas#commitChart {
   height: auto;
 }
 
-
-
 /* Media query - Tablet */
 @media (min-width: 768px) {
   .web-section {
