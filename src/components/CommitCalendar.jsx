@@ -47,15 +47,17 @@ const CommitCalendar = () => {
 
   const filterCommitsByCurrentWeek = (commits) => {
     const today = new Date();
-    const currentWeekStart = today.getDate() - today.getDay();
-    const currentWeekEnd = currentWeekStart + 6;
+    const currentDay = today.getDay();
+    const currentWeekStart = new Date(today);
+    currentWeekStart.setDate(today.getDate() - currentDay); // Set to Sunday of current week
+    const currentWeekEnd = new Date(today);
+    currentWeekEnd.setDate(today.getDate() + (6 - currentDay)); // Set to Saturday of current week
 
     return commits.filter((commit) => {
-      const commitDate = new Date(commit.commit.author.date);
-      const commitDay = commitDate.getDate();
-      return commitDay >= currentWeekStart && commitDay <= currentWeekEnd;
+        const commitDate = new Date(commit.commit.author.date);
+        return commitDate >= currentWeekStart && commitDate <= currentWeekEnd;
     });
-  };
+};
 
   const countCommitsByDay = (commits) => {
     const newCommitsByDay = [0, 0, 0, 0, 0, 0, 0];
@@ -97,6 +99,7 @@ const CommitCalendar = () => {
   };
 
   return (
+    console.log(commitsByDay),
     <div className="commit-calendar web-section">
       <div className="commit-calendar-container">
         <h2>Code Challenges Solved This Week:</h2>

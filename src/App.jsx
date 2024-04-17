@@ -3,6 +3,7 @@ import Recommendations from "./components/Recommendations";
 import About from "./components/About";
 import Stats from "./components/Stats";
 import CommitCalendar from "./components/CommitCalendar";
+import Projects from "./components/Projects";
 import "./App.css";
 
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Stats />
       <CommitCalendar />
+      {/* <Projects /> */}
       <Recommendations />
     </div>
   );

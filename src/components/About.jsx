@@ -28,7 +28,7 @@ const About = () => {
             <p>
               After graduating from California State University, Long Beach, I
               worked as a GIS researcher for the City of Long Beach. During that
-              time, I analyzed and mapped a decade of LBPD data to better help
+              time, I analyzed and mapped five years of LBPD data to better help
               multidisciplinary teams make policy decisions.
             </p>
             <p>
