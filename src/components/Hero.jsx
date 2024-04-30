@@ -12,9 +12,8 @@ const Hero = () => {
           <h2 className="color-primary">Hi there! I'm </h2>
           <h1>Kristina Macias.</h1>
           <div className="title-container">
-            <h2>
-              Full Stack Developer.{" "}
-              <span className="color-secondary">GIS Nerd.</span>
+            <h2 clsssName="color-secondary">
+              Full Stack Developer. GIS Nerd.
             </h2>
           </div>
         </div>

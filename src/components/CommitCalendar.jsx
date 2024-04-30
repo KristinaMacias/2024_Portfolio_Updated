@@ -106,7 +106,7 @@ const CommitCalendar = () => {
         <canvas id="commitChart"></canvas> {/* Canvas element for Chart.js */}
         <div className="paragraph-container">
           <p stye={{fontStyle: "italic"}}>
-            * Statistics are updated each time the page is loaded. Weekly data is based on the current week's commits and resets with the start of each new week (Sunday). 
+            * Weekly data is based on the current week's commits and resets with the start of each new week (Sunday). 
           </p>
         </div>
       </div>

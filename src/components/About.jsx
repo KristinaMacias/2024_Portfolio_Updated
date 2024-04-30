@@ -1,5 +1,5 @@
 import React from "react";
-import kristinaPortrait from "../assets/kristina-portrait.png";
+import kristinaPortrait from "../assets/kristina_lightbg.jpg";
 import circlesSVG from "../assets/circles-black.svg";
 
 const About = () => {
